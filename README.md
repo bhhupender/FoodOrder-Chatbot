@@ -22,7 +22,7 @@ Check total: Total
 
 Confirm order: Confirm
 
-##Future Enhancements
+## Future Enhancements
 💳 UPI/Cash payment options
 
 🕒 Live order tracking
