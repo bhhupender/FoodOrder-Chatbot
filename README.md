@@ -2,8 +2,6 @@
 
 An interactive food ordering chatbot for Indian restaurants built with Streamlit. Handles natural conversations, order management, and provides an engaging user experience.
 
-![Chatbot Demo](screenshots/demo.gif) *(Replace with actual screenshot)*
-
 ## Features
 - 🗣️ Natural language order processing
 - 📜 Menu display with Indian cuisine pricing (₹)
