@@ -24,7 +24,7 @@ def display_menu():
     menu_text = "Here's our menu:\n\n"
     for item, price in MENU.items():
         menu_text += f"🍛 {item}: ₹{price}\n"
-    menu_text += "\nExample order: '2 Chicken Biryani and 3 Butter Naan'"
+    menu_text += "\nExample order: 'Add 2 Chicken Biryani and 3 Butter Naan'"
     return menu_text
 
 def calculate_total():
@@ -50,7 +50,7 @@ def handle_user_input(user_input):
     elif current_stage == 'main':
         if 'menu' in user_input:
             st.session_state.messages.append(("bot", display_menu()))
-            st.session_state.messages.append(("bot", "💡 Example orders:\n- '1 Paneer Butter Masala with 2 Butter Naan'\n- '3 Masala Chai and 2 Gulab Jamun'"))
+            st.session_state.messages.append(("bot", "💡 Example orders:\n- 'Add 1 Paneer Butter Masala with 2 Butter Naan'\n- 'Add 3 Masala Chai and 2 Gulab Jamun'"))
         elif any(word in user_input for word in ['order', 'add', 'x', 'quantity']):
             process_order(user_input)
         elif 'total' in user_input:
